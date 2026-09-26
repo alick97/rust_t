@@ -1,5 +1,7 @@
+mod control_flow;
 mod data_types;
 mod func;
+
 const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
 fn var_example_1() {
@@ -32,5 +34,6 @@ fn main() {
     // shadowing_example();
     // let_example();
     // data_types::data_type_example();
-    func::func_example();
+    // func::func_example();
+    control_flow::control_flow_example();
 }
