@@ -1,6 +1,7 @@
 mod control_flow;
 mod data_types;
 mod func;
+mod ownership;
 
 const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
@@ -35,5 +36,10 @@ fn main() {
     // let_example();
     // data_types::data_type_example();
     // func::func_example();
-    control_flow::control_flow_example();
+    // control_flow::control_flow_example
+    // ownership::example_1();
+    // ownership::example_variables_and_data_interacting_with_move();
+    // ownership::example_owner_err();
+    // ownership::example_data_clone();
+    ownership::example_stack_only_data_copy();
 }
