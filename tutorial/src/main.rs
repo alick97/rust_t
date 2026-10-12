@@ -39,7 +39,7 @@ fn main() {
     // control_flow::control_flow_example
     // ownership::example_1();
     // ownership::example_variables_and_data_interacting_with_move();
-    // ownership::example_owner_err();
+    ownership::example_owner_err();
     // ownership::example_data_clone();
-    ownership::example_stack_only_data_copy();
+    // ownership::example_stack_only_data_copy();
 }
